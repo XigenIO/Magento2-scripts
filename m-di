@@ -1,0 +1,4 @@
+#!/bin/sh
+
+bin/magento setup:di:compile;
+bin/magento cache:clean;
