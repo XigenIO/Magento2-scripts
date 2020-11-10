@@ -1,3 +1,3 @@
 #!/bin/sh
 
-bin/magento c:c
+magento c:c
