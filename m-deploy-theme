@@ -1,5 +1,7 @@
 #!/bin/sh
 
-magento setup:static-content:deploy -f en_GB;
-magento setup:static-content:deploy -f en_US;
+source utils.sh
+
+$magento setup:static-content:deploy -f en_GB;
+$magento setup:static-content:deploy -f en_US;
 chown -Rvf www-data:www-data pub/static

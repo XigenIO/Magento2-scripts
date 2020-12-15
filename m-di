@@ -1,4 +1,6 @@
 #!/bin/sh
 
-magento setup:di:compile;
-magento cache:clean;
+source utils.sh
+
+$magento setup:di:compile;
+$magento cache:clean;

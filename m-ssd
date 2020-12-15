@@ -1,3 +1,5 @@
 #!/bin/sh
 
-magento magento s:s:d -f
+source utils.sh
+
+$magento $magento s:s:d -f

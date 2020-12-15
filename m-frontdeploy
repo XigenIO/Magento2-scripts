@@ -1,6 +1,8 @@
 #!/bin/sh
 
-magento xigen:clearstatic:clear -c;
-magento s:s:d -f en_GB;
-magento c:c;
-magento c:f
+source utils.sh
+
+$magento xigen:clearstatic:clear -c;
+$magento s:s:d -f en_GB;
+$magento c:c;
+$magento c:f
