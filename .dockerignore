@@ -1,3 +1,6 @@
 .git/
 Dockerfile
 readme.md
+
+# We don't need to update the scripts within a container
+m-update-script

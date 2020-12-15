@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir -p ~/tmp
+cd ~/tmp
+rm -rf master.zip Magento2-scripts-master/
+wget https://github.com/XigenIO/Magento2-scripts/archive/master.zip
+unzip master.zip
+mv Magento2-scripts-master/* ~/bin/
