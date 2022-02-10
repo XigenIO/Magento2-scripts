@@ -2,4 +2,4 @@
 
 source utils.sh
 
-$magento $magento s:s:d -f
+$magento setup:static-content:deploy -f

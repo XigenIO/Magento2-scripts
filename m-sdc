@@ -2,4 +2,4 @@
 
 source utils.sh
 
-$magento s:d:c
+$magento setup:di:compile

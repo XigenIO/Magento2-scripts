@@ -3,6 +3,6 @@
 source utils.sh
 
 $magento xigen:clearstatic:clear -c;
-$magento s:s:d -f en_GB;
-$magento c:c;
-$magento c:f
+$magento setup:static-content:deploy -f en_GB;
+$magento cache:clear;
+$magento cache:flush;
