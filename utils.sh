@@ -6,3 +6,7 @@ magento="magento"
 if test -f "$HOME/public_html/bin/magento"; then
   magento="/opt/cpanel/ea-php72/root/usr/bin/php -d display_errors=1 -d memory_limit=-1 $HOME/public_html/bin/magento"
 fi
+
+if test -f "$HOME/magento/bin/magento"; then
+  magento="php -d display_errors=1 -d memory_limit=-1 $HOME/magento/bin/magento"
+fi
