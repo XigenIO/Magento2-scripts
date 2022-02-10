@@ -2,4 +2,4 @@
 
 source utils.sh
 
-$magento cache:clear
+$magento cache:clean
